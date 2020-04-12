@@ -40,6 +40,7 @@ while true; do
     fi
     case "$1" in
         -h | --help)
+            set +x
             display_help
             exit 0
             ;;
